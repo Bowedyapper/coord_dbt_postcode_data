@@ -1,0 +1,7 @@
+{
+    "dbt.enableNewLineagePanel": true,
+    "dbt.queryLimit": 500,
+    "files.associations": {
+        "*.sql": "jinja-sql"
+    },
+}
