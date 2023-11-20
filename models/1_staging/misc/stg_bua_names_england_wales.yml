@@ -6,7 +6,9 @@ models:
     columns:
       - name: bua22cd
         description: Built-up Area Code
+
       - name: bua22nm
         description: Built-up Area Name
+        
       - name: bua22nmw
         description: Built-up Area Name Welsh

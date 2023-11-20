@@ -9,6 +9,7 @@ models:
         tests:
           - unique: true
           - not_null: true
+          
       - name: buasd13nm
         description: Built-up Area Sub-division Name
     
