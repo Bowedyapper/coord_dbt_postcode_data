@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: trn_os_open_uprn
+    columns:
+      - name: unique_property_reference_number
+        description: Unique Property Reference Number
+    
+      - name: easting
+        description: National Grid Easting
+    
+      - name: northing
+        description: National Grid Northing
+    
+      - name: latitude
+        description: Latitude
+    
+      - name: longitude
+        description: Longitude
+    
