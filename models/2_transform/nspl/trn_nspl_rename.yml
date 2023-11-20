@@ -1,0 +1,108 @@
+version: 2
+
+models:
+  - name: trn_nspl_rename
+    description: This table relates both current and terminated postcodes in the United Kingdom to a range of current statutory administrative, electoral, health and other statistical geographies
+
+    columns:
+      - name: postcode
+        description: This is a unique postcode identifier
+        tests:
+          - unique
+          - not_null
+
+      - name: date_of_introduction
+        description: The most recent occurrence of the postcode's date of introduction.
+
+      - name: date_of_termination
+        description: The most recent occurrence of the postcode's date of termination.
+      
+      - name: usertype
+        description: Shows whether the postcode is a small or large user.
+
+      - name: easting
+        description: The OS grid reference Easting to 1 metre resolution.
+      
+      - name: northing
+        description: The OS grid reference Northing to 1 metre resolution. 
+
+      - name: gird_reference_quality
+        description: The quality of the grid reference.
+
+      - name: output_area_code
+        description: The code of the output area in which the postcode is located.
+
+      - name: county_code
+        description: The code of the county in which the postcode is located.
+
+      - name: county_electoral_division
+        description: The county electoral division code for each English postcode.
+
+      - name: local_authority_district
+        description: The current district/UA to which the postcode has been assigned.
+
+      - name: electoral_ward
+        description: The current administrative/electoral area to which the postcode has been assigned.
+
+      - name: nhs_england_region
+        description: The NHS ER code for the postcode.
+
+      - name: country
+        description: The code for the appropriate country.
+
+      - name: region
+        description: The region code for each postcode.
+
+      - name: westminster_parliamentary_constituency
+        description: The Westminster parliamentary constituency code for each postcode.
+
+      - name: travel_to_work_area
+        description: The TTWA code for the postcode.
+
+      - name: international_territorial_level
+        description: The national LAU1-equivalent code for each postcode.
+
+      - name: national_park
+        description: The code for the BUAs in England and Wales.
+
+      - name: lower_layer_super_output_area
+        description: The 2021 Census LSOA code for England and Wales, SDZ code for Northern Ireland and 2011 DZ code for Scotland.
+
+      - name: middle_layer_super_output_area
+        description: The 2021 Census MSOA code for England and Wales and 2011 IZ code for Scotland.
+
+      - name: workplace_zone
+        description: The UK WZ code.
+
+      - name: sub_icb_location
+        description: The code for the Sub ICB Locations in England, LHBs in Wales, CHPs in Scotland, LCG in Northern Ireland and PHD in the Isle of Man.
+
+      - name: built_up_area
+        description: The code for the BUAs in England and Wales.
+
+      - name: rural_urban_classification
+        description: The 2011 Census rural-urban classification of OAs for England and Wales, Scotland and Northern Ireland.
+
+      - name: output_area_classification
+        description: The 2011 Census OAC code for each postcode in the UK.
+
+      - name: latitude
+        description: The postcode coordinates in degrees latitude to six decimal places.
+
+      - name: longitude
+        description: The postcode coordinates in degrees longitude to six decimal places.
+
+      - name: local_enterprise_partnership_first
+        description: The primary LEP code for each English postcode.
+
+      - name: local_enterprise_partnership_second
+        description: Where LEPs overlap, the secondary code for each affected English postcode.
+
+      - name: police_force_area
+        description: The PFA code for each postcode.
+
+      - name: index_of_multiple_deprivation
+        description: The IMD rank for the LSOA of each postcode, where 1 is the most deprived.
+
+      - name: integrated_care_board
+        description: The ICB code for each postcode.
