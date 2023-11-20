@@ -1,11 +1,12 @@
 <a name="readme-top"></a>
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
+![Contributers](https://img.shields.io/gitlab/contributors/jason.hewitt%2Fdbt_coord_postcode_data?gitlab_url=https%3A%2F%2Fgitlab.coord.uk&style=for-the-badge)
+![Last Commit](https://img.shields.io/gitlab/last-commit/jason.hewitt%2Fdbt_coord_postcode_data?gitlab_url=https%3A%2F%2Fgitlab.coord.uk&style=for-the-badge)
+![Forks](https://img.shields.io/gitlab/forks/jason.hewitt%2Fdbt_coord_postcode_data?gitlab_url=https%3A%2F%2Fgitlab.coord.uk&style=for-the-badge)
+![Stars](https://img.shields.io/gitlab/stars/jason.hewitt%2Fdbt_coord_postcode_data?gitlab_url=https%3A%2F%2Fgitlab.coord.uk&style=for-the-badge)
+![Issues](https://img.shields.io/gitlab/issues/all/jason.hewitt%2Fdbt_coord_postcode_data?gitlab_url=https%3A%2F%2Fgitlab.coord.uk&style=for-the-badge)
+![License](https://img.shields.io/gitlab/license/jason.hewitt%2Fdbt_coord_postcode_data?gitlab_url=https%3A%2F%2Fgitlab.coord.uk&style=for-the-badge)
 <br />
+
 <div align="center">
   <a href="https://github.com/bowedyapper/dbt-coord-postcode-data">
     <img src="https://cdn.coord.uk/COORD_DBT_Logo.png" alt="Logo" height="140">
@@ -80,15 +81,3 @@ dbt docs serve
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-[contributors-shield]: https://img.shields.io/github/contributors/bowedyapper/dbt-coord-postcode-data.svg?style=for-the-badge
-[contributors-url]: https://github.com/bowedyapper/dbt-coord-postcode-data/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bowedyapper/dbt-coord-postcode-data.svg?style=for-the-badge
-[forks-url]: https://github.com/bowedyapper/dbt-coord-postcode-data/network/members
-[stars-shield]: https://img.shields.io/github/stars/bowedyapper/dbt-coord-postcode-data.svg?style=for-the-badge
-[stars-url]: https://github.com/bowedyapper/dbt-coord-postcode-data/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bowedyapper/dbt-coord-postcode-data.svg?style=for-the-badge
-[issues-url]: https://github.com/bowedyapper/dbt-coord-postcode-data/issues
-[license-shield]: https://img.shields.io/github/license/bowedyapper/dbt-coord-postcode-data.svg?style=for-the-badge
-[license-url]: https://github.com/bowedyapper/dbt-coord-postcode-data/blob/master/LICENSE.txt
-[DBT-url]: https://www.getdbt.com/
