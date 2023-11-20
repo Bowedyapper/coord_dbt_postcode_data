@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: stg_nsul_em
+    description: NSUL East Midlands
+    columns:
+      - name: uprn
+        description: Unique Property Reference Number
+        tests:
+          - unique
+          - not_null
+      - name: gridgb1e
+        description: National Grid Reference Easting to 1m
+      - name: gridgb1n
+        description: National Grid Reference Northing to 1m
+      - name: pcds
+        description: Postcode
+      - name: oa21cd
+        description: 2021 Output Area Code
+      - name: cty22cd
+        description: County Code
+      - name: ced21cd
+        description: County Electoral Division Code
+      - name: lad22cd
+        description: Local Authority District Code
+      - name: wd22cd
+        description: Ward Code
+      - name: hlth19cd
+        description: Health Code
+      - name: ctry22cd
+        description: Country Code
+      - name: rgn22cd
+        description: Region Code
+      - name: pcon22cd
+        description: Westminster Parliamentary Constituency Code
+      - name: eer22cd
+        description: European Electoral Region Code
+      - name: ttwa15cd
+        description: Travel to Work Area Code
+      - name: itl21cd
+        description: International Territorial Level Code
+      - name: npark16cd
+        description: National Park Code
+      - name: lsoa21cd
+        description: 2021 Lower Layer Super Output Area Code
+      - name: msoa21cd
+        description: 2021 Middle Layer Super Output Area Code
+      - name: wz11cd
+        description: 2011 Workplace Zone Code
+      - name: sicbl22cd
+        description: SUB ICB Location Code
+      - name: bua22cd
+        description: Built-up Area Code
+      - name: buasd11cd
+        description: Built-up Area Sub-division Code
+      - name: ruc11ind
+        description: Rural/Urban Classification Code
+      - name: oac11ind
+        description: Output Area Classification Code
+      - name: lep21cd1
+        description: Local Enterprise Partnership Code First Instance
+      - name: lep21cd2
+        description: Local Enterprise Partnership Code Second Instance
+      - name: pfa21cd
+        description: Police Force Area Code
+      - name: imd19ind
+        description: Index of Multiple Deprivation Code

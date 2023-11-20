@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: stg_nsul_yh
+    description: NSUL Yorkshire and the Humber
+    columns:
+      - name: uprn
+        tests:
+          - unique
+          - not_null
+        description: Unique Property Reference Number
+      - name: gridgb1e
+        description: National Grid Reference Easting to 1m
+      - name: gridgb1n
+        description: National Grid Reference Northing to 1m
+      - name: pcds
+        description: Postcode
+      - name: oa21cd
+        description: 2021 Census Output Area Code
+      - name: cty22cd
+        description:  County Code
+      - name: ced21cd
+        description: County Electoral Division Code
+      - name: lad22cd
+        description: Local Authority District Code
+      - name: wd22cd
+        description: Ward Code
+      - name: hlth19cd
+        description: Local Health Board Code
+      - name: ctry22cd
+        description: Country Code
+      - name: rgn22cd
+        description: Region Code
+      - name: pcon22cd
+        description: Westminster Parliamentary Constituency Code
+      - name: eer22cd
+        description: European Electoral Region Code
+      - name: ttwa15cd
+        description: Travel to Work Area Code
+      - name: itl21cd
+        description: International Territorial Level Code
+      - name: npark16cd
+        description: National Park Code
+      - name: lsoa21cd
+        description: 2021 Census Lower Layer Super Output Area Code
+      - name: msoa21cd
+        description: 2021 Census Middle Layer Super Output Area Code
+      - name: wz11cd
+        description: 2011 Census Workplace Zone Code
+      - name: sicbl22cd
+        description: Sub Integrated Care Board Code
+      - name: bua22cd
+        description: Built-up Area Code
+      - name: buasd11cd
+        description: Built-up Area Sub-division Code
+      - name: ruc11ind
+        description: 2011 Rural-Urban Classification
+      - name: oac11ind
+        description: 2011 Census Output Area Classification
+      - name: lep21cd1
+        description: Local Enterprise Partnership Code First Instance
+      - name: lep21cd2
+        description: Local Enterprise Partnership Code Second Instance
+      - name: pfa21cd
+        description: Police Force Area Code
+      - name: imd19ind
+        description: Index of Multiple Deprivation

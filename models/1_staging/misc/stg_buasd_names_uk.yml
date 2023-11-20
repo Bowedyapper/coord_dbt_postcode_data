@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_buasd_names_uk
+    description:
+    columns:
+      - name: buasd13cd
+        description: Built-up Area Sub-division Code
+        tests:
+          - unique: true
+          - not_null: true
+      - name: buasd13nm
+        description: Built-up Area Sub-division Name
+    

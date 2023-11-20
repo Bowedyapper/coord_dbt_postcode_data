@@ -1,0 +1,77 @@
+# This file contains the schema for the Ordnance Survey Open Names dataset
+version: 2
+
+models:
+  - name: stg_os_open_names
+    columns:
+      - name: id
+        description: Ordnance Survey Open Names unique identifier
+        tests:
+          - unique
+          - not_null
+      - name: names_uri
+        description: Ordnance Survey Open Names URI
+      - name: name1
+        description: Name of Object
+      - name: name1_lang
+        description: Language of Name
+      - name: name2
+        description: Name of Object
+      - name: name2_lang
+        description: Language of Name
+      - name: type
+        description: Type of Object
+      - name: local_type
+        description: Local Type of Object
+      - name: geometry_x
+        description: Geometry X
+      - name: geometry_y
+        description: Geometry Y
+      - name: most_detail_view_res
+        description: Most Detailed View Resolution
+      - name: least_detail_view_res
+        description: Least Detailed View Resolution
+      - name: mbr_xmin
+        description: Minimum Bounding Rectangle X Minimum
+      - name: mbr_ymin
+        description: Minimum Bounding Rectangle Y Minimum
+      - name: mbr_xmax
+        description: Minimum Bounding Rectangle X Maximum
+      - name: mbr_ymax
+        description: Minimum Bounding Rectangle Y Maximum
+      - name: postcode_district
+        description: Postcode District
+      - name: postcode_district_uri
+        description: Postcode District URI
+      - name: populated_place
+        description: Name of Populated Place
+      - name: populated_place_uri
+        description: Populated Place URI
+      - name: populated_place_type
+        description: Populated Place Type
+      - name: district_borough
+        description: District or Borough
+      - name: district_borough_uri
+        description: District or Borough URI
+      - name: district_borough_type
+        description: District or Borough Type
+      - name: county_unitary
+        description: County or Unitary Authority
+      - name: county_unitary_uri
+        description: County or Unitary Authority URI
+      - name: county_unitary_type
+        description: County or Unitary Authority Type
+      - name: region
+        description: Region
+      - name: region_uri
+        description: Region URI
+      - name: country
+        description: Country
+      - name: country_uri
+        description: Country URI
+      - name: related_spatial_object
+        description: Related Spatial Object
+      - name: same_as_dbpedia
+        description: DBPedia URI
+      - name: same_as_geonames
+        description: Geonames URI

@@ -1,0 +1,84 @@
+version: 2
+
+models:
+  - name: stg_nspl
+    columns:
+      - name: pcd
+        description: Postcode 7 Character Version
+        tests:
+            - unique
+            - not_null
+      - name: pcd2
+        description: Postcode 8 Character Version
+        tests:
+            - unique
+            - not_null
+      - name: pcds
+        description: Postcode Variable Length Version
+        tests:
+            - unique
+            - not_null
+      - name: dointr
+        description: Date of Introduction
+      - name: doterm
+        description: Date of Termination
+      - name: usertype
+        description: Postcode User Type
+      - name: oseast1m
+        description: National Grid Reference Easting to 1m
+      - name: osnrth1m
+        description: National Grid Reference Northing to 1m
+      - name: osgrdind
+        description: National Grid Reference Grid Positional Quality Indicator
+      - name: oa21
+        description: 2021 Census Output Area Code
+      - name: cty
+        description: County Code
+      - name: ced
+        description: County Electoral Division Code
+      - name: laua
+        description: Local Authority District Code
+      - name: ward
+        description: Ward Code
+      - name: nhser
+        description: NHS England Region Code
+      - name: ctry
+        description: Country Code
+      - name: rgn
+        description: Region Code
+      - name: pcon
+        description: Westminster Parliamentary Constituency Code
+      - name: ttwa
+        description: Travel to Work Area Code
+      - name: itl
+        description: International Territorial Level Code
+      - name: npark
+        description: National Park Code
+      - name: lsoa21
+        description: 2021 Census Lower Layer Super Output Area Code
+      - name: msoa21
+        description: 2021 Census Middle Layer Super Output Area Code
+      - name: wz11
+        description: 2011 Census Workplace Zone Code
+      - name: sicbl
+        description: Sub Integrated Care Board
+      - name: bua22
+        description: Built-up Area Code
+      - name: ru11ind
+        description: 2011 Rural/Urban Indicator
+      - name: oac11
+        description: 2011 Census Output Area Classification
+      - name: lat
+        description: Latitude
+      - name: long
+        description: Longitude
+      - name: lep1
+        description: Local Enterprise Partnership Code First Instance
+      - name: lep2
+        description: Local Enterprise Partnership Code Second Instance
+      - name: pfa
+        description: Police Force Area Code
+      - name: imd
+        description: Index of Multiple Deprivation
+      - name: icb
+        description: Integrated Care Board Code

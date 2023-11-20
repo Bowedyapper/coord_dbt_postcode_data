@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_calncv_codes_england
+    description:
+    columns:
+      - name: cal20cd
+        description: 
+    
+      - name: cal20nm
+        description:
+    

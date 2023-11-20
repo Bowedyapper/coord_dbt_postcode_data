@@ -1,0 +1,115 @@
+version: 2
+
+models:
+  - name: stg_onspd_uk
+    description: ONS Postcode Directory UK
+    columns:
+      - name: pcd
+        description: Postcode 7 Character Version
+        tests:
+          - unique
+          - not_null
+      - name: pcd2
+        description: Postcode 8 Character Version
+      - name: pcds
+        description: Postcode Variable Length Version
+      - name: dointr
+        description: Date of Introduction
+      - name: doterm
+        description: Date of Termination
+      - name: oscty
+        description: County Code
+      - name: ced
+        description: County Electoral Division Code
+      - name: oslaua
+        description: Local Authority District Code
+      - name: osward
+        description: Ward Code
+      - name: parish
+        description: Parish Community Code
+      - name: usertype
+        description: Postcode User Type
+      - name: oseast1m
+        description: National Grid Reference Easting to 1m
+      - name: osnrth1m
+        description: National Grid Reference Northing to 1m
+      - name: osgrdind
+        description: National Grid Reference Grid Positional Quality Indicator
+      - name: oshlthau
+        description: Health Code
+      - name: nhser
+        description: NHS England Region Code
+      - name: ctry
+        description: Country Code
+      - name: rgn
+        description: Region Code
+      - name: streg 
+        description: Standard Statistical Region Code
+      - name: pcon
+        description: Westminster Parliamentary Constituency Code
+      - name: eer
+        description: European Electoral Region Code
+      - name: teclec
+        description: Local Learning and Skills Council Code
+      - name: ttwa
+        description: Travel to Work Area Code
+      - name: pct
+        description: Primary Care Trust Code
+      - name: itl
+        description: International Territorial Level Code
+      - name: statsward
+        description: Statistics Ward Code
+      - name: oa01
+        description: 2001 Output Area Code
+      - name: casward
+        description: Census Area Statistics Ward Code
+      - name: npark
+        description: National Park Code
+      - name: lsoa01
+        description: 2001 Lower Layer Super Output Area Code
+      - name: msoa01
+        description: 2001 Middle Layer Super Output Area Code
+      - name: ur01ind
+        description: 2001 Urban/Rural Indicator
+      - name: oac01
+        description: 2001 Output Area Classification Code
+      - name: oa11
+        description: 2011 Output Area Code
+      - name: lsoa11
+        description: 2011 Lower Layer Super Output Area Code
+      - name: msoa11
+        description: 2011 Middle Layer Super Output Area Code
+      - name: wz11
+        description: 2011 Workplace Zone Code
+      - name: sicbl
+        description: Sub ICB Location Code
+      - name: bua11
+        description: 2011 Built-up Area Code
+      - name: buasd11
+        description: 2011 Built-up Area Sub-division Code
+      - name: ru11ind
+        description: 2011 Rural/Urban Indicator
+      - name: oac11
+        description: 2011 Output Area Classification Code
+      - name: lat
+        description: Latitude
+      - name: long
+        description: Longitude
+      - name: lep1
+        description: Local Enterprise Partnership Code First Instance
+      - name: lep2
+        description: Local Enterprise Partnership Code Second Instance
+      - name: pfa
+        description: Police Force Area Code
+      - name: imd
+        description: Index of Multiple Deprivation
+      - name: calncv
+        description: Cancer Alliance Code
+      - name: icb
+        description: Integrated Care Board Code
+      - name: oa21
+        description: 2021 Output Area Code
+      - name: lsoa21
+        description: 2021 Lower Layer Super Output Area Code
+      - name: msoa21
+        description: 2021 Middle Layer Super Output Area Code
