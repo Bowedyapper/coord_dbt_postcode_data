@@ -1,0 +1,69 @@
+version: 2
+
+sources:
+  - name: nspl
+    tables:
+    - name: nspl21_uk
+      
+    
+  - name: nsul
+    tables:
+      - name: nsul_ee
+      - name: nsul_em
+      - name: nsul_ln
+      - name: nsul_ne
+      - name: nsul_nw
+      - name: nsul_sc
+      - name: nsul_se
+      - name: nsul_sw
+      - name: nsul_wa
+      - name: nsul_wm
+      - name: nsul_yh
+
+  - name: os_open_data
+    tables:
+      - name: open_uprn
+      - name: os_open_names
+
+  - name: onspd
+    tables:
+      - name: onspd_uk
+
+  - name: misc
+    tables:
+      - name: bua_names_england_wales
+      - name: buasd_names_uk
+      - name: calncv_codes_england
+      - name: ced_names_england
+      - name: ctry_names_uk
+      - name: cty_names_uk
+      - name: eer_names_uk
+      - name: hlthau_names_uk
+      - name: icb_names_uk
+      - name: imd_lookup_england
+      - name: imd_lookup_northern_ireland
+      - name: imd_lookup_scotland
+      - name: imd_lookup_wales
+      - name: intermediate_zones_sc
+      - name: ipn_gb
+      - name: la_ua_names_uk
+      - name: lau121_itl321_itl221_itl121_uk_lu
+      - name: lep_names_england
+      - name: loc_names_uk
+      - name: lsoa_names_england_wales
+      - name: msoa_names_1.20
+      - name: msoa_names_2.2
+      - name: msoa_names_england_wales
+      - name: nhser_names_england
+      - name: npark_names_gb
+      - name: oac_names_uk
+      - name: pcd_oa21_lsoa21_msoa21_lad_aug23_uk_lu
+      - name: pcon_names_uk
+      - name: pct_names_uk
+      - name: pfa_names_gb
+      - name: rgn_names_england
+      - name: ruind_names_gb
+      - name: sicb_names_england_wales
+      - name: teclec_names_uk
+      - name: ttwa_names_uk
+      - name: ward_names_uk
