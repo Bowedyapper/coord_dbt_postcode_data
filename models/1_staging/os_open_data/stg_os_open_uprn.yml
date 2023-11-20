@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_os_open_uprn
+    description:
+    columns:
+      - name: uprn
+        description: Unique Property Reference Number
+    
+      - name: xcoordinate
+        description: National Grid Easting
+    
+      - name: ycoordinate
+        description: National Grid Northing
+    
+      - name: latitude
+        description: Latitude
+    
+      - name: longitude
+        description: Longitude
+    
