@@ -1,0 +1,26 @@
+[sqlfluff]
+dialect = postgres
+templater = jinja
+
+[sqlfluff:layout:type:comma]
+spacing_before = touch
+line_position = leading
+
+[sqlfluff:indentation]
+indent_unit = space
+tab_space_size = 4
+indented_joins = True
+indented_ctes = True
+indented_using_on = True
+indented_on_contents = True
+indented_then = True
+indented_then_contents = True
+allow_implicit_indents = False
+template_blocks_indent = True
+skip_indentation_in = script_content
+trailing_comments = before
+
+[sqlfluff:layout:type:alias_expression]
+spacing_before = align
+align_within = select_clause
+align_scope = bracketed

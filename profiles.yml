@@ -1,0 +1,13 @@
+dbt-postgres:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('DBT_POSTGRES_HOST') }}"
+      user: "{{ env_var('DBT_POSTGRES_USER') }}"
+      password: "{{ env_var('DBT_POSTGRES_PASSWORD') }}"
+      port: "{{ env_var('DBT_POSTGRES_PORT') | int}}"
+      dbname: coord
+      schema: COORD_ETL
+      threads: 3
+      keepalives_idle: 0 # default 0, indicating the system default
