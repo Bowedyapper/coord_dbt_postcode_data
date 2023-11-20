@@ -2,7 +2,6 @@ version: 2
 
 models:
   - name: stg_os_open_uprn
-    description:
     columns:
       - name: uprn
         description: Unique Property Reference Number
