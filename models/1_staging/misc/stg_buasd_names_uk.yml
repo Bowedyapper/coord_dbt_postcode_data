@@ -6,8 +6,8 @@ models:
       - name: buasd13cd
         description: Built-up Area Sub-division Code
         tests:
-          - unique: true
-          - not_null: true
+          - unique
+          - not_null
           
       - name: buasd13nm
         description: Built-up Area Sub-division Name

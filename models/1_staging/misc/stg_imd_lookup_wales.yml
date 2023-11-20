@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stgimd_lookup_wales
+  - name: stg_imd_lookup_wales
     columns:
       - name: fid
         description: Field ID

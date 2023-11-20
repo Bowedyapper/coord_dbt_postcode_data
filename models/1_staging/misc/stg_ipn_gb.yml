@@ -13,7 +13,7 @@ models:
         description: Place Name Code
     
       - name: placesort
-        description: 
+        description: Lowercase Place Name with Spaces Removed for sorting
     
       - name: place22nm
         description: Place Name
