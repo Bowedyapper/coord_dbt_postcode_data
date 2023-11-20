@@ -1,12 +1,5 @@
 {{ config(schema = 'TRN_NSPL', materialized = 'view') }}
 
-WITH
-    nspl AS (
-        SELECT *
-        FROM
-            {{ ref('stg_nspl') }}
-    )
-
 SELECT
     oseast1m                                                           AS easting
     , osnrth1m                                                         AS northing
@@ -42,4 +35,4 @@ SELECT
     , to_char(to_date(dointr, 'YYYYMM'), 'FMMon YYYY')                 AS date_of_introduction
     , to_char(to_date(dointr, 'YYYYMM'), 'FMMon YYYY')                 AS date_of_termination
 FROM
-    nspl
+    {{ ref('stg_nspl') }}
