@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: trn_nsul
+    columns:
+      - name: unique_property_reference_number
+        description: Unique Property Reference Number
+    
+      - name: postcode_easting_to_1m
+        description: National Grid Easting to 1m
+    
+      - name: postcode_northing_to_1m
+        description: National Grid Northing to 1m
+    
+      - name: postcode
+        description: Postcode
