@@ -22,7 +22,7 @@ sources:
 
   - name: os_open_data
     tables:
-      - name: open_uprn
+      - name: os_open_uprn
       - name: os_open_names
 
   - name: onspd
