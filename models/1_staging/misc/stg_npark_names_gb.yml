@@ -1,6 +1,14 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_npark_names_gb
     columns:
+      - name: npark22cd
+        description: National park code
+    
+      - name: npark22nm
+        description: National park name
+    
+      - name: npark22nmw
+        description: National park name (Welsh)
+    

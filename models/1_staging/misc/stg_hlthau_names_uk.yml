@@ -1,6 +1,20 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_hlthau_names_uk
     columns:
+      - name: hlthaucd
+        description: Health authority code
+        tests:
+          - unique
+          - not_null
+    
+      - name: hlthaucdo
+        description: Health authority code (old)
+    
+      - name: hlthaunm
+        description: Health authority name
+    
+      - name: hlthaunmw
+        description: Health authority name (Welsh)
+    

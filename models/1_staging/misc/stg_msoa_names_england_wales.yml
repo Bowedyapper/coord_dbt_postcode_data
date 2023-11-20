@@ -1,6 +1,12 @@
 version: 2
 
 models:
-  - name: 
+  - name: stg_msoa_names_england_wales
     description:
     columns:
+      - name: msoa21cd
+        description: Middle layer super output area code
+    
+      - name: msoa21nm
+        description: Middle layer super output area name
+    

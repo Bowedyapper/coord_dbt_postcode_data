@@ -1,6 +1,32 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_lau121_itl321_itl221_itl121_uk_lu
     columns:
+      - name: lau121cd
+        description: Local Administrative Units Level 1 code
+        tests:
+          - unique
+          - not_null
+    
+      - name: lau121nm
+        description: Local Administrative Units Level 1 name
+    
+      - name: itl321cd
+        description: International Territorial Level 3 code
+    
+      - name: itl321nm
+        description: International Territorial Level 3 name
+    
+      - name: itl221cd
+        description: International Territorial Level 2 code
+    
+      - name: itl221nm
+        description: International Territorial Level 2 name
+    
+      - name: itl121cd
+        description: International Territorial Level 1 code
+    
+      - name: itl121nm
+        description: International Territorial Level 1 name
+    

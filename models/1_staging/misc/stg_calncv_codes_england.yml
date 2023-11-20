@@ -2,11 +2,13 @@ version: 2
 
 models:
   - name: stg_calncv_codes_england
-    description:
     columns:
       - name: cal20cd
-        description: 
+        description: Cancer alliance code
+        tests:
+          - unique
+          - not_null
     
       - name: cal20nm
-        description:
+        description: Cancer alliance name
     

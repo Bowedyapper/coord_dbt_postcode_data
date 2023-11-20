@@ -1,6 +1,14 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_sicb_names_england_wales
     columns:
+      - name: sicbl23cd
+        description: SUB Integrated Care Board LOC code
+    
+      - name: sicbl23cdh
+        description: SUB Integrated Care Board LOC code (historic)
+    
+      - name: sicbl23nm
+        description: SUB Integrated Care Board LOC name
+    

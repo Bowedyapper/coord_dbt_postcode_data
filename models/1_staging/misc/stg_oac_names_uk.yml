@@ -1,6 +1,17 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_oac_names_uk
     columns:
+      - name: oac11
+        description: Output Area Classification code
+    
+      - name: supergroup
+        description: Super group
+    
+      - name: group
+        description: Group
+    
+      - name: subgroup
+        description: Sub group
+    

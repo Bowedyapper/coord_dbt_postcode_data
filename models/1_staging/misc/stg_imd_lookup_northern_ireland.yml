@@ -1,6 +1,23 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_imd_lookup_northern_ireland
     columns:
+      - name: fid
+        description: Field ID
+    
+      - name: lgd14cd
+        description: Local government district code
+    
+      - name: lgd14nm
+        description: Local government district name
+    
+      - name: lsoa01cd
+        description: 2001 Census Lower layer super output area code
+    
+      - name: lsoa01nm
+        description: 2001 Census Lower layer super output area name
+    
+      - name: imd17
+        description: Index of multiple deprivation rank
+    

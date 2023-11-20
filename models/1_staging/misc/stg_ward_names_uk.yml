@@ -1,6 +1,14 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_ward_names_uk
     columns:
+      - name: wd22cd
+        description: Ward code
+    
+      - name: wd22nm
+        description: Ward name
+    
+      - name: wd22nmw
+        description: Ward name (Welsh)
+    

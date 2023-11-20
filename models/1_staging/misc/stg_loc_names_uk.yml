@@ -1,6 +1,17 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_loc_names_uk
     columns:
+      - name: loc22cd
+        description: SUB Integrated Care Board code
+    
+      - name: loc22cdh
+        description: SUB Integrated Care Board code (historic)
+    
+      - name: loc22nm
+        description: SUB Integrated Care Board name
+    
+      - name: loc22nmw
+        description: SUB Integrated Care Board name (Welsh)
+    

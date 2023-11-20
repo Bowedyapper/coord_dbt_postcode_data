@@ -1,6 +1,17 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_rgn_names_england
     columns:
+      - name: rgn20cd
+        description: Region code
+    
+      - name: rgn20cdo
+        description: Region code (old)
+    
+      - name: rgn20nm
+        description: Region name
+    
+      - name: rgn20nmw
+        description: Region name (Welsh)
+    

@@ -1,6 +1,17 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_eer_names_uk
     columns:
+      - name: eer10cd
+        description: European electoral region code
+        tests:
+          - unique
+          - not_null
+    
+      - name: eer10cdo
+        description: European electoral region code (old)
+    
+      - name: eer10nm
+        description: European electoral region name
+    

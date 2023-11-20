@@ -1,6 +1,17 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_pct_names_uk
     columns:
+      - name: pctcd
+        description: Primary care trust code
+
+      - name: pctcdo
+        description: Primary care trust code (old)
+    
+      - name: pctnm
+        description: Primary care trust name
+    
+      - name: pctnmw
+        description: Primary care trust name (Welsh)
+    

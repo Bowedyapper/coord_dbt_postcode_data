@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: stg_pcd_oa21_lsoa21_msoa21_lad_aug23_uk_lu
+    columns:
+      - name: pcd7
+        description: Postcode 7 character version
+    
+      - name: pcd8
+        description: Postcode 8 character version
+    
+      - name: pcds
+        description: Postcode variable character version
+    
+      - name: dointr
+        description: Date of introduction
+    
+      - name: doterm
+        description: Date of termination
+    
+      - name: usertype
+        description: User type
+    
+      - name: oa21cd
+        description: Output Area code
+    
+      - name: lsoa21cd
+        description: Lower layer super output area code
+    
+      - name: msoa21cd
+        description: Middle layer super output area code
+    
+      - name: ladcd
+        description: Local authority district code
+    
+      - name: lsoa21nm
+        description: Lower layer super output area name
+    
+      - name: msoa21nm
+        description: Middle layer super output area name
+    
+      - name: ladnm
+        description: Local authority district name
+    
+      - name: ladnmw
+        description: Local authority district name (Welsh)
+    

@@ -1,6 +1,17 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_la_ua_names_uk
     columns:
+      - name: lad21cd
+        description: Local authority district code
+        tests:
+          - unique
+          - not_null
+    
+      - name: lad21nm
+        description: Local authority district name
+    
+      - name: lad21nmw
+        description: Local authority district name (Welsh)
+    

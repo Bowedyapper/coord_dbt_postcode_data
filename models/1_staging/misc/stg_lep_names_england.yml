@@ -1,6 +1,11 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_lep_names_england
     columns:
+      - name: lep21cd
+        description: Local enterprise partnership code
+    
+      - name: lep21nm
+        description: Local enterprise partnership name
+    

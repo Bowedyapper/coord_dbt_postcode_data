@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_msoa_names_120
+    columns:
+      - name: msoa11cd
+        description: Middle Super Output Area code
+    
+      - name: msoa11nm
+        description: Middle Super Output Area name
+    
+      - name: msoa11nmw
+        description: Middle Super Output Area name (Welsh)
+    
+      - name: msoa11hclnm
+        description: Middle Super Output Area name from House of Commons Library
+    
+      - name: msoa11hclnmw
+        description: Middle Super Output Area name from House of Commons Library (Welsh)
+    
+      - name: laname
+        description: Local authority name
+    

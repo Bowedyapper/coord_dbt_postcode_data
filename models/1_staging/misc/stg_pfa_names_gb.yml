@@ -1,6 +1,11 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_pfa_names_gb
     columns:
+      - name: pfa15cd
+        description: Police force area code
+    
+      - name: pfa15nm
+        description: Police force area name
+    

@@ -1,6 +1,17 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_icb_names_uk
     columns:
+      - name: icb23cd
+        description: Integrated Care Board code
+        tests:
+          - unique
+          - not_null
+    
+      - name: icb23cdh
+        description: Integrated Care Board code (historic)
+    
+      - name: icb23nm
+        description: Integrated Care Board name
+    

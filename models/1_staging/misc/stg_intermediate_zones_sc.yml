@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_intermediate_zones_sc
+    columns:
+      - name: iz11cd
+        description: Intermediate zone code
+        tests:
+          - unique
+          - not_null
+    
+      - name: iz11nm
+        description: Intermediate zone name
+    
+      - name: fid
+        description: Field ID

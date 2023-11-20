@@ -1,6 +1,14 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_cty_names_uk
     columns:
+      - name: cty21cd
+        description: County code
+        tests:
+          - unique
+          - not_null
+    
+      - name: cty21nm
+        description: County name
+    

@@ -1,6 +1,89 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_imd_lookup_scotland
     columns:
+      - name: dz
+        description: Data zone
+        tests:
+          - unique
+          - not_null
+    
+      - name: dzname
+        description: Data zone name
+    
+      - name: simd2020v2rank
+        description: Scottish Index of Multiple Deprivation 2020 rank
+    
+      - name: simd2020v2vigintile
+        description: Scottish Index of Multiple Deprivation 2020 vigintile
+    
+      - name: simd2020v2decile
+        description: Scottish Index of Multiple Deprivation 2020 decile
+    
+      - name: simd2020v2quintile
+        description: Scottish Index of Multiple Deprivation 2020 quintile
+    
+      - name: simd2020v2incomedomainrank
+        description: Scottish Index of Multiple Deprivation 2020 income domain rank
+    
+      - name: simd2020employmentdomainrank
+        description: Scottish Index of Multiple Deprivation 2020 employment domain rank
+    
+      - name: simd2020educationdomainrank
+        description: Scottish Index of Multiple Deprivation 2020 education domain rank
+    
+      - name: simd2020healthdomainrank
+        description: Scottish Index of Multiple Deprivation 2020 health domain rank
+    
+      - name: simd2020accessdomainrank
+        description: Scottish Index of Multiple Deprivation 2020 access domain rank
+    
+      - name: simd2020crimedomainrank
+        description: Scottish Index of Multiple Deprivation 2020 crime domain rank
+    
+      - name: simd2020housingdomainrank
+        description: Scottish Index of Multiple Deprivation 2020 housing domain rank
+    
+      - name: population
+        description: Population
+    
+      - name: workingagepopulation
+        description: Working age population
+    
+      - name: urclass
+        description: Urban rural classification
+    
+      - name: urname 
+        description: Urban rural classification name
+    
+      - name: izcode
+        description: Intermediate zone code
+    
+      - name: izname
+        description: Intermediate zone name
+    
+      - name: lacode
+        description: Local authority code
+    
+      - name: laname
+        description: Local authority name
+    
+      - name: hbcode
+        description: Health board code
+    
+      - name: hbname
+        description: Health board name
+    
+      - name: mmwcode
+        description: Middle super output area (2011) code
+    
+      - name: mmwname
+        description: Middle super output area (2011) name
+    
+      - name: spccode
+        description: Scottish parliamentary constituency code
+
+      - name: spcname
+        description: Scottish parliamentary constituency name
+    

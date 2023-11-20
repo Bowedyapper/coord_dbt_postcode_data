@@ -51,8 +51,8 @@ sources:
       - name: lep_names_england
       - name: loc_names_uk
       - name: lsoa_names_england_wales
-      - name: msoa_names_1.20
-      - name: msoa_names_2.2
+      - name: msoa_names_120
+      - name: msoa_names_22
       - name: msoa_names_england_wales
       - name: nhser_names_england
       - name: npark_names_gb

@@ -1,6 +1,11 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_lsoa_names_england_wales
     columns:
+      - name: lsoa21cd
+        description: Lower layer super output area code
+    
+      - name: lsoa21nm
+        description: Lower layer super output area name
+    

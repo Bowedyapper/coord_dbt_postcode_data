@@ -1,6 +1,14 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_teclec_names_uk
     columns:
+      - name: tecleccd
+        description: Local Learning and Skills Council (England). Enterprise Region (Scotland). DCELLS (Wales) code
+    
+      - name: tecleccdo
+        description: Local Learning and Skills Council (England). Enterprise Region (Scotland). DCELLS (Wales) code (old)
+    
+      - name: teclecnm
+        description: Local Learning and Skills Council (England). Enterprise Region (Scotland). DCELLS (Wales) name
+    

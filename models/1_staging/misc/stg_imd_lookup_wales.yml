@@ -1,6 +1,26 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stgimd_lookup_wales
     columns:
+      - name: fid
+        description: Field ID
+    
+      - name: lsoa11cd
+        description: 2011 Census Lower layer super output area code
+    
+      - name: lsoa11nm
+        description: 2011 Census Lower layer super output area name
+    
+      - name: ladcd
+        description: Local authority district code
+    
+      - name: ladnm
+        description: Local authority district name
+    
+      - name: ladnmw
+        description: Local authority district name (Welsh)
+    
+      - name: wimd2019
+        description: Welsh Index of multiple deprivation rank
+    

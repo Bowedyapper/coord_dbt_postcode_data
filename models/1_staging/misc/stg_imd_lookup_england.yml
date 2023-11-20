@@ -1,6 +1,26 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_imd_lookup_england
     columns:
+      - name: fid
+        description: Field ID
+        tests:
+          - unique
+          - not_null
+    
+      - name: lsoa11cd
+        description: 2011 Census Lower layer super output area code
+    
+      - name: lsoa11nm
+        description: 2011 Census Lower layer super output area name
+    
+      - name: lad19cd
+        description: Local authority district code
+    
+      - name: lad19nm
+        description: Local authority district name
+    
+      - name: imd19
+        description: Index of multiple deprivation rank
+    

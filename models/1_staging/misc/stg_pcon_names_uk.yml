@@ -1,6 +1,11 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_pcon_names_uk
     columns:
+      - name: pcon14cd
+        description: UK Parliament constituency code
+    
+      - name: pcon14nm
+        description: UK Parliament constituency name
+    

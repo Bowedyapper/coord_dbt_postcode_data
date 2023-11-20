@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_msoa_names_22
+    columns:
+      - name: msoa21cd
+        description: Middle layer super output area code
+    
+      - name: msoa21nm
+        description: Middle layer super output area name
+    
+      - name: msoa21nmw
+        description: Middle layer super output area name (Welsh)
+    
+      - name: msoa21hclnm
+        description: Middle Super Output Area name from House of Commons Library
+    
+      - name: msoa21hclnmw
+        description: Middle Super Output Area name from House of Commons Library (Welsh)
+    
+      - name: localauthorityname
+        description: Local authority name
+    
+      - name: type
+        description: Type
+    

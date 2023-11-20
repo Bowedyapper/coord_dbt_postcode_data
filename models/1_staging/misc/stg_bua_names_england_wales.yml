@@ -2,7 +2,6 @@ version: 2
 
 models:
   - name: stg_bua_names_england_wales
-    description: Built-up Area Names England and Wales
     columns:
       - name: bua22cd
         description: Built-up Area Code

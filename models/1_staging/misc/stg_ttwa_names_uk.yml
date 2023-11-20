@@ -1,6 +1,11 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_ttwa_names_uk
     columns:
+      - name: ttwa11cd
+        description: Travel to work area code
+    
+      - name: ttwa11nm
+        description: Travel to work area name
+    

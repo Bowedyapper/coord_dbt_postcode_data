@@ -1,6 +1,20 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_ctry_names_uk
     columns:
+      - name: ctry12cd
+        description: Country code
+        tests:
+          - unique
+          - not_null
+    
+      - name: ctry12cdo
+        description: Country code (old)
+    
+      - name: ctry12nm
+        description: Country name
+    
+      - name: ctry12nmw
+        description: Country name (Welsh)
+    

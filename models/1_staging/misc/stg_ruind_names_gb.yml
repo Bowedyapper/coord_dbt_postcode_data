@@ -1,6 +1,11 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_ruind_names_gb
     columns:
+      - name: ru11ind
+        description: Rural/urban indicator
+    
+      - name: ru11nm
+        description: Rural/urban indicator name
+    

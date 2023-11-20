@@ -1,6 +1,14 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_nhser_names_england
     columns:
+      - name: nhser22cd
+        description: NHS England region code
+    
+      - name: nhser22cdh
+        description: NHS England region code (historic)
+    
+      - name: nhser22nm
+        description: NHS England region name
+    

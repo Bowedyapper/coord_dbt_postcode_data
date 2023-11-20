@@ -1,0 +1,140 @@
+version: 2
+
+models:
+  - name: stg_ipn_gb
+    columns:
+      - name: placeid
+        description: Place Name ID
+        tests:
+          - unique
+          - not_null
+    
+      - name: place22cd
+        description: Place Name Code
+    
+      - name: placesort
+        description: 
+    
+      - name: place22nm
+        description: Place Name
+    
+      - name: splitind
+        description: Split Place Name Indicator
+    
+      - name: descnm
+        description: Place Name Description
+    
+      - name: ctyhistnm
+        description: Historic County Name
+    
+      - name: cty61nm
+        description: 1961 County Name
+    
+      - name: cty91nm
+        description: 1991 County Name (England and Wales), 1991 Region Name (Scotland)
+    
+      - name: ctyltnm
+        description: Lieutenant County Name
+    
+      - name: ctry22nm
+        description: Country Name
+    
+      - name: cty22cd
+        description: County Code
+    
+      - name: cty22nm
+        description: County Name
+    
+      - name: lad61nm
+        description: 1961 Local Authority Name
+    
+      - name: lad61desc
+        description: 1961 Local Authority Description
+    
+      - name: lad91nm
+        description: 1991 Local Authority Name
+    
+      - name: lad91desc
+        description: 1991 Local Authority Description
+    
+      - name: lad22cd
+        description: Local Authority District Code
+    
+      - name: lad22nm
+        description: Local Authority District Name
+    
+      - name: lad22desc
+        description: Local Authority District Description
+    
+      - name: ced22cd
+        description: County Electoral Division Code
+    
+      - name: wd22cd
+        description: Ward Code
+    
+      - name: par22cd
+        description: Parish Code
+    
+      - name: hlth22cd
+        description: Health Authority Code
+    
+      - name: hlth22nm
+        description: Health Authority Name
+    
+      - name: regd22cd
+        description: Registration District Code
+    
+      - name: regd22nm
+        description: Registration District Name
+    
+      - name: rgn22cd
+        description: Region Code
+    
+      - name: rgn22nm
+        description: Region Name
+    
+      - name: npark22cd
+        description: National Park Code
+    
+      - name: npark22nm
+        description: National Park Name
+    
+      - name: bua22cd
+        description: Built-up Area Code
+    
+      - name: pcon22cd
+        description: Parliamentary Constituency Code
+    
+      - name: pcon22nm
+        description: Parliamentary Constituency Name
+    
+      - name: eer22cd
+        description: European Electoral Region Code
+    
+      - name: eer22nm
+        description: European Electoral Region Name
+    
+      - name: pfa22cd
+        description: Police Force Area Code
+    
+      - name: pfa22nm
+        description: Police Force Area Name
+    
+      - name: gridgb1m
+        description: National Grid Reference 1m Square
+    
+      - name: gridgb1e
+        description: National Grid Reference Easting to 1 metre
+    
+      - name: gridgb1n
+        description: National Grid Reference Northing to 1 metre
+    
+      - name: grid1km
+        description: National Grid Reference 1km Square
+    
+      - name: lat
+        description: Latitude
+    
+      - name: long
+        description: Longitude
+    

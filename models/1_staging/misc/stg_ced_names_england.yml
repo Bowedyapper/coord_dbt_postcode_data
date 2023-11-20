@@ -1,6 +1,14 @@
 version: 2
 
 models:
-  - name: 
-    description:
+  - name: stg_ced_names_england
     columns:
+      - name: ced21cd
+        description: County electoral division code
+        tests:
+          - unique
+          - not_null
+    
+      - name: ced21nm
+        description: County electoral division name
+    
